@@ -1,0 +1,426 @@
+/*----------------------
+GENERAL
+ ---------------------*/
+
+a {
+    text-decoration: none;
+    color: #08C;
+    transition: all 0.3s ease-out;
+    position: relative;
+
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+ 
+a:hover { color: #0AF; text-decoration: none; }
+
+body {
+    background: #f6f8f9;
+    overflow-x: hidden;
+    color: #56565a;
+    font-size: 14px;
+    font-family: 'Lato';
+    line-height: 25px;
+    font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lato';    
+}
+
+h1 {
+    font-size: 44px;
+    letter-spacing: 100;
+    line-height: 47px;
+}
+
+nav {
+    float: right;    
+    width: 723px;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+nav ul li a {
+    color: #555559;
+    font-size: 11px;
+    max-height:  54px;
+    padding-top: 41px;
+    margin-top: 2px;
+    border-top: 3px solid #f6f8f9;    
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    border-top: 3px solid #555559;
+    max-height:  54px;
+    color: #555559;    
+
+}
+
+/*----------------------
+CLASSES
+ ---------------------*/
+
+.analitico {
+    width: 98%;
+    background: #0094ca;
+    border-radius: 20px;    
+    -moz-animation: analitico 2s ease-out;
+    -webkit-animation: analitico 2s ease-out;    
+}
+
+.arrow-down {
+    text-align: center;
+    display: block;
+}
+
+.asertivo {
+    width: 97%;
+    background: #24b1d8;
+    border-radius: 20px;
+    -moz-animation: asertivo 2s ease-out;
+    -webkit-animation: asertivo 2s ease-out;    
+}
+
+.big {
+    font-size: 20px;
+}
+
+.carousel {
+    min-width: 1024px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background: none;
+}
+
+.carousel-control.left {
+    margin-left: 1%;
+}
+
+.carousel-control.right {
+    margin-right: 1%;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+ 
+.clearfix:after {
+    clear: both;
+}
+ 
+/* IE6/7 support */
+.clearfix {
+    *zoom: 1;
+}
+
+.confiable {
+    width: 99%;
+    background: #0094ca;
+    border-radius: 20px;    
+    -moz-animation: confiable 2s ease-out;
+    -webkit-animation: confiable 2s ease-out;    
+}
+
+.conoceme {
+    padding-top: 130px !important;
+}
+
+.conoceme h2 {
+    margin-bottom: 74px;
+}
+
+.conoceme-pic {    
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+    max-width: 1402px;
+
+}
+
+#cubos {
+    position: absolute;
+    left: 0;
+    bottom: -200px;
+    z-index: 100;
+}
+
+#badir-conoceme {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -500px;
+}
+
+.content-wrapper {
+	max-width: 1200px;
+    min-width: 1024px;
+	padding: 0 1em;
+	margin: 0 auto;
+    position: relative;
+}
+
+.creativo {
+    width: 94%;
+    background: #07a5d2;
+    border-radius: 20px;    
+    -moz-animation: creativo 2s ease-out;
+    -webkit-animation: creativo 2s ease-out;    
+}
+
+.exigente {
+    width: 98%;
+    background: #07a5d2;
+    border-radius: 20px;    
+    -moz-animation: exigente 2s ease-out;
+    -webkit-animation: exigente 2s ease-out;    
+}
+
+.expand {
+    height: 29px;
+    position: absolute;
+}
+
+.hide {
+    display: none;
+}
+
+.hola-text {
+    width: 584px;
+    z-index: 9;
+    position: absolute;
+    right: 0;
+    top: 174px;
+}
+
+.hola-text h2,
+.conoceme h2 {
+    color: #0093c9;
+    font-size: 55px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+}
+
+.hola-text h3 {
+    font-size: 34px;
+    font-weight: 300;    
+    color: #56565a;
+    letter-spacing: 0.1em    
+}
+
+.hola-text p {
+    letter-spacing: 0.025em;
+}
+
+.intro {
+    height: 765px;
+}
+
+.left {
+    float: left;
+}
+
+.logo {
+    display: inline-block;
+    padding-top: 34px;    
+}
+
+.logo-2,
+.logo-3 {
+    display: none;
+    position: absolute;
+    left: 75px;
+    top: 36px;
+}
+
+.main-big {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.main-statement {
+    width: 379px;
+    color: #555559;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 300;
+    letter-spacing: .1em;
+    margin: 250px auto 67px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.more-link {
+    float: right;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    text-transform: uppercase;
+    color: #0093c9;
+    padding-right: 35px;
+    margin-top: 135px;
+    background: url(img/right-arrow.png) right center no-repeat;
+}
+
+.nav-bar {
+    background: #f6f8f9;
+    padding-bottom: 30px;  
+    position: fixed;  
+    width: 100%;
+    z-index: 1000;
+}
+
+.perfeccionista {
+    width: 93%;
+    background: #2fb4db;
+    border-radius: 20px;    
+    -moz-animation: perfeccionista 2s ease-out;
+    -webkit-animation: perfeccionista 2s ease-out;    
+}
+
+.right {
+    float: right;
+}
+
+.servicios {
+    position: relative;
+    height: 704px;    
+    background: #F6F8F9;
+    overflow: hidden;
+}
+ 
+.show {
+    display: block;
+}
+
+.skills {
+    width: 483px;
+    margin-right: 5%;
+    list-style: none;    
+    position: relative;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 35px;
+    height: 29px;
+    border-radius: 20px;
+    position: relative;
+    background: #d3d3d3;
+}
+
+.skills li em {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    left: 23px;
+    top: 2px;
+    font-style: normal;
+    font-size: 23px;
+    letter-spacing: 0.125em
+}
+
+.skill-text {
+    width: 570px;
+    margin-top: 80px;
+}
+
+.skill-text p {
+    margin: 0 0 21px;
+}
+
+.small-text {
+    font-size: 7px;
+    vertical-align: super;
+}
+
+.testimonials {
+    background: #555559;
+    clear: both;
+    overflow: hidden;
+}
+
+.visual {
+    width: 99%;
+    background: #24b1d8;
+    border-radius: 20px;    
+    -moz-animation: perfeccionista 2s ease-out;
+    -webkit-animation: perfeccionista 2s ease-out;    
+}
+
+
+/*----------------------
+ ID's
+ ---------------------*/
+
+#badir-pic {
+    position: absolute;
+    bottom: 0;
+    left: -100px;
+}
+
+#nav-inicio {
+    margin-right: 28.5px;
+    text-align: left;
+    width: 73px;
+    letter-spacing: .3em;    
+}
+
+#nav-servicios {
+    text-align: center;
+    width: 175.5px;
+    margin-right: 28.5px;
+    letter-spacing: .3em;
+}
+
+#nav-clientes {
+    text-align: center;
+    width: 73px;
+    margin-right: 28.5px;
+    letter-spacing: .3em;
+}
+
+#nav-contacto {
+    text-align: center;
+    width: 174.5px;
+    margin-right: 28.5px;
+    letter-spacing: .3em;
+}
+
+#nav-extras {
+    text-align: center;
+    width: 73px;
+    letter-spacing: .3em;
+}
+
+/*----------------------
+RESPONSIVE
+ ---------------------*/
+
+@media only screen and (max-width : 1024px) {
+
+
+}

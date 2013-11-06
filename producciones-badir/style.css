@@ -72,6 +72,27 @@ nav ul li a:hover {
 CLASSES
  ---------------------*/
 
+ .analista-texto {
+    margin: 63px 0 0 0;
+    margin-right: 32px;
+    width: 371px;
+    float: right;
+   
+ }
+
+ .analista-texto > p {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+ }
+
+.analista-texto > p span {
+    font-size: 18px;
+    color: #0093c9;
+    font-weight: 400;
+    letter-spacing: 0.1em;    
+    text-transform: uppercase;
+}
+
 .analitico {
     width: 98%;
     background: #0094ca;
@@ -95,6 +116,68 @@ CLASSES
 
 .big {
     font-size: 20px;
+}
+
+.bloque-blanco-1,
+.bloque-blanco-2 {
+    background: url(img/cubo.png) center top no-repeat;
+    width: 597px;
+    height: 643px;
+}
+
+.bloque-blanco-1 {
+    position: relative;
+    right: -50px;
+    top: -90px;
+    text-align: center;
+    z-index: 11;
+    float: right;
+}
+
+.bloque-blanco-1 h2 {
+    font-size: 45px;
+    color: #0093c9;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+}
+
+.bloque-blanco-1 h2 span {
+    font-weight: 400;
+}
+
+.bloque-blanco-1 > p {
+    font-size: 18px;
+    margin: 18px 0 14px;
+    letter-spacing: 0.06em;
+}
+
+.bloque-blanco-2 {
+    position: relative;
+    top: 465px;
+    left: 315px;
+    text-align: center;
+    z-index: 10;
+}
+
+.bloque-blanco-2 figure {
+    position: absolute;
+    top: 104px;
+    left: 74px;
+}
+
+.bloque-blanco-2 > p {
+    position: absolute;
+    top: 84px;
+    left: 140px;
+    letter-spacing: 0.1em;
+    font-size: 18px;    
+}
+
+.bloque-blanco-2 > p span {
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .carousel {
@@ -172,6 +255,7 @@ CLASSES
     left: 0;
     right: 0;
     bottom: -500px;
+    z-index: 5;
 }
 
 .content-wrapper {
@@ -188,6 +272,13 @@ CLASSES
     border-radius: 20px;    
     -moz-animation: creativo 2s ease-out;
     -webkit-animation: creativo 2s ease-out;    
+}
+
+.cross {
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .exigente {
@@ -232,6 +323,50 @@ CLASSES
 
 .hola-text p {
     letter-spacing: 0.025em;
+}
+
+.infografia {
+    margin-top: 126px;
+    position: relative;
+    height: 1497px;
+}
+
+.infografia > .content-wrapper {
+    height: 1046px;
+}
+
+.infografia-texto {
+    background: #555559;
+    padding: 100px 20px 0;
+    text-align: center;
+    height: 452px;
+}
+
+.infografia-texto h2 {
+    color: #fff;
+    font-size: 47px;
+    font-weight: 300;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.infografia-texto h2 span {
+    font-weight: 400;
+}
+
+
+.infografia-texto p {
+    color: #fff;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    width: 1209px;
+    margin: 64px auto;
+    text-align: left;
+}
+
+.infografia-2 {
+    background: #0094ca;
+    height: 100px;
 }
 
 .intro {
@@ -301,6 +436,10 @@ CLASSES
     -webkit-animation: perfeccionista 2s ease-out;    
 }
 
+.quote {
+    position: absolute;
+}
+
 .right {
     float: right;
 }
@@ -357,10 +496,47 @@ CLASSES
     vertical-align: super;
 }
 
+.sticker {
+    border-radius: 10px;
+    border: 2px solid #555559;
+    background: #fff;
+    padding: 18px 4px 12px 15px;
+    width: 382px;
+    position: absolute;
+    bottom: 105px;
+    left: 100px;
+    text-align: left;
+}
+
+.sticker-text {
+    padding-left: 34px;
+    letter-spacing: 0.1em;
+    background: url(img/equis.png) left center no-repeat;
+    line-height: 28px;
+}
+
+.sticker-text > span,
+.sticker-text-2 > span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sticker-text-2 {
+    padding-left: 34px;
+    letter-spacing: 0.1em;
+    background: url(img/char-small.png) left center no-repeat;
+    line-height: 28px;    
+}
+
 .testimonials {
     background: #555559;
     clear: both;
     overflow: hidden;
+}
+
+.triangle {
+    position: relative;
+    bottom: -91px;
 }
 
 .visual {
@@ -376,10 +552,132 @@ CLASSES
  ID's
  ---------------------*/
 
+#analista {
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+
+#analista-2 {
+    margin: 36px 26px 0 61px;
+    float: left;
+}
+
+#arrow-1 {
+    float: left;
+    margin: 19px 13px 0 88px;
+}
+
+#arrow-2 {
+    float: right;
+    margin: 14px 71px 0 5px;
+}
+
 #badir-pic {
     position: absolute;
     bottom: 0;
     left: -100px;
+}
+
+#ceo {
+    left: 215px;
+    top: 161px;
+    position: absolute;
+}
+
+#cross {
+    top: 69px;
+    left: 70px;
+}
+
+#cross-2 {
+    top: 106px;
+    left: 72px;    
+}
+
+#cross-3 {
+    top: 147px;
+    left: 76px;    
+}
+
+#cross-4 {
+    top: 62px;
+    left: 160px;    
+}
+
+#cross-5 {
+    top: 99px;
+    left: 166px;    
+}
+
+#cross,
+#cross-2,
+#cross-3,
+#cross-4,
+#cross-5,
+.graphic-line-1,
+.graphic-line-2,
+.graphic-line-3,
+.graphic-bar,
+.graphic-chart {
+    position: absolute;
+}
+
+#graphic-bar {
+    position: absolute;
+    bottom: 0;
+    left: 71px;
+    z-index: 1;
+}
+
+#graphic-chart {
+    position: absolute;
+    right: 0;
+    bottom: 211px;
+}
+
+#graphic-line-1 {
+    position: absolute;
+    left: 0;
+    bottom: 486px;
+}
+
+#graphic-line-2 {
+    position: absolute;
+    left: 157px;
+    bottom: 186px;
+    z-index: 2;
+}
+
+#graphic-line-3 {
+    position: absolute;
+    right: 0;
+    bottom: 151px;
+}
+
+#exclamacion {
+    position: absolute;
+    top: 146px;
+    left: 62px;
+}
+
+#line-2 {
+    position: absolute;
+    left: 69px;
+    bottom: 14px;
+}
+
+#lines {
+    position: absolute;
+    left: 286px;
+    top: 138px;
+    z-index: 30;
+}
+
+#mensajes {
+    position: absolute;
+    left: 266px;
+    top: 56px;
 }
 
 #nav-inicio {
@@ -414,6 +712,23 @@ CLASSES
     text-align: center;
     width: 73px;
     letter-spacing: .3em;
+}
+
+#notebook {
+    display: inline-block;
+    margin: -102px 101px 0 137px;   
+    position: relative;
+}
+
+#question {
+    margin-top: 31px;
+}
+
+#ventas {
+    left: 406px;
+    position: absolute;
+    top: 122px;
+    z-index: 40;
 }
 
 /*----------------------

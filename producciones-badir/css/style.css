@@ -37,10 +37,6 @@ h1 {
     line-height: 47px;
 }
 
-h2.bluetext {
-    margin-top: 0;
-}
-
 nav {
     float: right;    
     width: 723px;
@@ -122,10 +118,6 @@ CLASSES
     font-size: 20px;
 }
 
-.bloque {
-    margin-top: 61px;
-}
-
 .bloque-blanco-1,
 .bloque-blanco-2 {
     background: url(img/cubo.png) center top no-repeat;
@@ -188,20 +180,6 @@ CLASSES
     font-weight: 400;
 }
 
-.bluetext {
-    font-size: 51px;
-    color: #0093c9;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: normal;
-}
-
-.blueline {
-    position: absolute;
-    top: 124px;
-    right: -52px;
-}
-
 .carousel {
     min-width: 1024px;
     max-width: 1200px;
@@ -250,7 +228,7 @@ CLASSES
 
 .conoceme {
     padding-top: 130px !important;
-    display: none; /*Quitar para ver seccion de conoceme*/
+    display: none;  /*Quitar cuando se quiera mostrar esta parte*/
 }
 
 .conoceme h2 {
@@ -263,7 +241,7 @@ CLASSES
     margin: 0 auto;
     clear: both;
     max-width: 1402px;
-    display: none; /*Quitar para ver seccion de conoceme*/
+    display: none;    /*Quitar cuando se quiera mostrar esta parte*/
 }
 
 #cubos {
@@ -317,79 +295,6 @@ CLASSES
     position: absolute;
 }
 
-
-.evitar-conseguir {
-    position: relative;
-}
-
-.list-content {
-    border-radius: 20px;
-    border: 2px solid #0093c9;
-    padding: 40px;
-    float: right;
-    margin: 0 3px 0 0;
-    width: 662px;
-    background: #fff;
-    z-index: 1;
-}
-
-
-.list-content-iconos {
-    float: left;
-    padding-top: 48px;
-}
-
-.list-content-iconos-2 {
-    padding: 0;
-    float: left;
-    margin-top: -20px;
-}
-
-.list-content-text {
-    float: left;
-    margin-left: 33px;
-}
-
-.list-content-text ul {
-    padding: 0;
-}
-
-.list-content-text ul li {
-    list-style: none;
-    background: url(img/equis-gris.png) left no-repeat;
-    vertical-align: middle;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 18px;
-    padding: 3px 0 0 35px;
-    line-height: 28px;
-}
-
-.list-content-text ul li p {
-    position: relative;
-    top: -4px;
-}
-
-.list-content-text ul li span{
-    text-transform: none;
-    font-size: 14px;
-}
-
-.list-2 {
-    width: 415px;  
-}
-
-.list-2 > li {
-     background: url(img/check-grey.png) left no-repeat !important;    
-}
-
-.graficas-2 {
-    background: url(img/graficas-info-2.png) center top no-repeat;
-    width: 1054px;
-    height: 337px;
-    margin: 131px 0 0 121px;
-}
-
 .hide {
     display: none;
 }
@@ -421,83 +326,8 @@ CLASSES
     letter-spacing: 0.025em;
 }
 
-
-.ilustracion-alcancia {
-    position: absolute;
-    right: 253px;
-    top: 175px;
-}
-
-.ilustracion-bubble-1 {
-    position: absolute;
-    top: 0;
-    left: 393px;
-}
-
-.ilustracion-bubble-2 {
-    position: absolute;
-    right: 0;
-    top: 280px
-}
-
-.ilustracion-bubble-3 {
-    position: absolute;
-    top: 280px;
-    left: 0;
-}
-
-.ilustracion-bubble-4 {
-    position: absolute;
-    bottom: 0;
-    left: 393px;
-}
-
-.ilustracion-calculadora {
-    position: absolute;
-    left: 251px;
-    top: 176px;
-}
-
-.ilustracion-calendario {
-    right: 252px;
-    bottom: 198px;
-    position: absolute;
-}
-
-.ilustracion-ceo-2 {
-    position: absolute;
-    top: 310px;
-    left: 341px;
-}
-
-.ilustracion-chart-2 {
-    position: absolute;
-    bottom: 187px;
-    left: 240px;
-}
-
-.ilustracion-ventas-2 {
-    position: absolute;
-    right: 334px;
-    top: 309px;
-}
-
-
-
-.ilustracion-infografia {
-    width: 1067px;
-    height: 871px;
-    margin: 170px auto 0;
-    position: relative;
-}
-
-.imagenes {
-    width: 461px;
-    float: left;
-    position: relative;
-}
-
 .infografia {
+    margin-top: 126px;
     position: relative;
     height: 1497px;
 }
@@ -513,8 +343,7 @@ CLASSES
     height: 452px;
 }
 
-.infografia-texto h2,
-.infografia-2-texto h2 {
+.infografia-texto h2 {
     color: #fff;
     font-size: 47px;
     font-weight: 300;
@@ -522,8 +351,7 @@ CLASSES
     text-transform: uppercase;
 }
 
-.infografia-texto h2 span,
-.infografia-2-texto h2 span {
+.infografia-texto h2 span {
     font-weight: 400;
 }
 
@@ -538,18 +366,8 @@ CLASSES
 }
 
 .infografia-2 {
-    background: url(img/fondo-info.jpg) center top no-repeat;
-    padding-top: 94px;    
-    height: 1700px;
-}
-
-.infografia-2-texto {
-    text-align: center;
-}
-
-.infografia-2-texto h2 {
-    letter-spacing: 0.05em;
-    font-size: 40px;
+    background: #0094ca;
+    height: 100px;
 }
 
 .intro {
@@ -621,42 +439,8 @@ CLASSES
 
 .quote {
     position: absolute;
-    left: 45px;
-    letter-spacing: 0.2em;
 }
 
-.quote-line3 {
-    margin-left: -5px;
-}
-
-.quote-line4 {
-    font-weight: 400;
-    margin-left: 15px;
-}
-
-.quote-symbol {
-    margin-right: 10px;
-}
-
-.quote-symbol-3 img,
-.quote-symbol-4 img {
-    vertical-align: top;
-}
-
-.quote-2 {
-    font-size: 20px;
-    letter-spacing: 0.3em;
-    float: right;
-    margin: 53px 115px 0 0;
-}
-
-.quote-2-line-1 {
-    margin-bottom: 23px;
-}
-
-.quite-2-line-3 {
-    margin-top: 23px;
-}
 .right {
     float: right;
 }
@@ -843,15 +627,8 @@ CLASSES
 #graphic-bar {
     position: absolute;
     bottom: 0;
-    left: 38px;
+    left: 71px;
     z-index: 1;
-}
-
-#graphic-bar-2{
-    position: relative;
-    right: 10px;
-    bottom: 0;
-    float: right;
 }
 
 #graphic-chart {
@@ -862,7 +639,7 @@ CLASSES
 
 #graphic-line-1 {
     position: absolute;
-    left: -91px;
+    left: 0;
     bottom: 486px;
 }
 

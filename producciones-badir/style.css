@@ -202,6 +202,20 @@ CLASSES
     right: -52px;
 }
 
+.call-to-action {
+    background: #0093c9;
+}
+
+.call-to-action h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+    padding: 151px 0;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+
 .carousel {
     min-width: 1024px;
     max-width: 1200px;
@@ -266,20 +280,6 @@ CLASSES
     display: none; /*Quitar para ver seccion de conoceme*/
 }
 
-#cubos {
-    position: absolute;
-    left: 0;
-    bottom: -200px;
-    z-index: 100;
-}
-
-#badir-conoceme {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -500px;
-    z-index: 5;
-}
 
 .content-wrapper {
 	max-width: 1200px;
@@ -302,6 +302,125 @@ CLASSES
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
+}
+
+.cursos {
+    padding: 196px 0 88px 0;
+    position: relative;
+}
+
+.cursos h2 {
+    color: #0093c9;
+    font-size: 47px;
+    font-weight: 300;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;    
+}
+
+.cursos-bloques {
+    margin: 63px 3px 91px 0;
+    float: left;
+}
+
+.cursos-content {
+    margin: 106px auto 0;
+    width: 955px;
+    text-align: center;
+}
+
+.cursos-cubos-1 {
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+}
+
+.cursos-cubos-2 {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+
+.cursos-icono {
+    float: left;
+    margin-right: 20px;
+    padding: 30px 0 0 0;
+}
+
+.cursos-text {
+    float: left;
+    width: 478px;
+    border-bottom: 1px solid #0093c9;
+    padding: 0 0 50px 0;
+}
+
+.cursos-text a {
+    margin: 48px 0 0 0;
+    display: block;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.cursos-text h2 {
+    color: #0093c9;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.cursos-text p {
+    width: 361px;
+}
+
+.cursos-text-blue {
+    color: #0093c9;
+    font-weight: 700;
+    margin: 0;
+}
+
+.empresas {
+    background: url(img/empresas-bg.jpg) center top no-repeat;
+    height: 809px;
+    padding: 90px 0 0 0;
+}
+
+
+.empresas-bloque {
+    float: left;
+    width: 274px;
+    margin: 107px 124px 0 0;
+}
+
+.empresas-bloque h3 {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    width: 133px;
+}
+
+.empresas-bloque figure {
+    margin: 73px 0 0 0;
+}
+
+.empresas-content > .empresas-bloque:last-child {
+    margin-right: 0;
+}
+
+.empresas-content h2 {
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 300;
+}
+
+.empresas-title {
+    border-bottom: 1px solid #fff;
+}
+
+.empresas-title h3 {
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    font-style: 35px;
 }
 
 .exigente {
@@ -790,6 +909,14 @@ CLASSES
     margin: 14px 71px 0 5px;
 }
 
+#badir-conoceme {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -500px;
+    z-index: 5;
+}
+
 #badir-pic {
     position: absolute;
     bottom: 0;
@@ -838,6 +965,13 @@ CLASSES
 .graphic-bar,
 .graphic-chart {
     position: absolute;
+}
+
+#cubos {
+    position: absolute;
+    left: 0;
+    bottom: -200px;
+    z-index: 100;
 }
 
 #graphic-bar {

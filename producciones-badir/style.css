@@ -539,7 +539,7 @@ CLASSES
 }
 
 .empresas {
-    background: url(img/empresas-bg.jpg) center top no-repeat;
+    background: url(img/empresas-bg.jpg) center -100px no-repeat fixed;
     height: 809px;
     padding: 90px 0 0 0;
 }
@@ -582,7 +582,7 @@ CLASSES
 .empresas-title h3 {
     line-height: 40px;
     letter-spacing: 0.1em;
-    font-style: 35px;
+    font-size: 35px;
 }
 
 .exigente {
@@ -597,7 +597,6 @@ CLASSES
     height: 29px;
     position: absolute;
 }
-
 
 .evitar-conseguir {
     position: relative;
@@ -726,7 +725,7 @@ CLASSES
     background: url(img/graficas-info-2.png) center top no-repeat;
     width: 1054px;
     height: 337px;
-    margin: 131px 0 0 121px;
+    margin: 119px 0 0 121px;
 }
 
 .hide {
@@ -834,6 +833,7 @@ CLASSES
     width: 461px;
     float: left;
     position: relative;
+    z-index: 1000;
 }
 
 .infografia {

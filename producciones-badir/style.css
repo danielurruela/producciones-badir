@@ -19,12 +19,12 @@ a:hover { color: #0AF; text-decoration: none; }
 
 body {
     background: #f6f8f9;
-    overflow-x: hidden;
     color: #56565a;
     font-size: 14px;
     font-family: 'Lato';
     line-height: 25px;
     font-weight: 300;
+    overflow-x: hidden; 
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -206,6 +206,10 @@ CLASSES
     background: #0093c9;
 }
 
+.call-to-action  a {
+    color: #fff;
+}
+
 .call-to-action h2 {
     margin: 0;
     color: #fff;
@@ -254,6 +258,120 @@ CLASSES
     *zoom: 1;
 }
 
+.clientes {
+    padding-top: 176px;
+}
+
+.clientes-cubos {
+    background: url(img/clientes-bg.png) center top no-repeat;
+    height: 865px;
+    margin: 218px auto 0;
+}
+
+.clientes-logos {
+    width: 1172px;
+    margin: 0 auto;
+}
+
+.clientes-1 {
+    background: url(img/cliente-logo-1.png) 50px center no-repeat;
+    width: 293px;
+    height: 395px;
+    position: relative;
+    top: -13px;
+    left: 144px;
+    float: left;
+}
+
+.clientes-1:hover {
+    background: url(img/cliente-logo-1-hover.png) left center no-repeat;
+}
+
+.clientes-2 {
+    background: url(img/cliente-logo-2.png) center center no-repeat;
+    width: 293px;
+    height: 395px;
+    position: relative;
+    top: -13px;
+    left: 144px;
+    float: left;
+}
+
+.clientes-2:hover {
+    background: url(img/cliente-logo-2-hover.png) left center no-repeat;
+}
+
+.clientes-3 {
+    background: url(img/cliente-logo-3.png) center center no-repeat;
+    width: 293px;
+    height: 395px;
+    position: relative;
+    top: -13px;
+    left: 144px;
+    float: left;
+}
+
+.clientes-3:hover {
+    background: url(img/cliente-logo-3-hover.png) left center no-repeat;
+}
+
+.clientes-4 {
+    background: url(img/cliente-logo-4.png) center center no-repeat;
+    width: 293px;
+    height: 395px;
+    position: relative;
+    top: -154px;
+    left: -3px;
+    float: left;
+    clear: left;
+}
+
+.clientes-4:hover {
+    background: url(img/cliente-logo-4-hover.png) left center no-repeat;
+}
+
+.clientes-5 {
+    background: url(img/cliente-logo-5.png) center center no-repeat;
+    width: 293px;
+    height: 395px;
+    position: relative;
+    top: -154px;
+    left: -3px;
+    float: left;
+}
+
+.clientes-5:hover {
+    background: url(img/cliente-logo-5-hover.png) left center no-repeat;
+}
+
+.clientes-6 {
+    background: url(img/cliente-logo-6.png) center center no-repeat;
+    width: 293px;
+    height: 395px;
+    position: relative;
+    top: -154px;
+    left: -3px;
+    float: left;
+}
+
+.clientes-6:hover {
+    background: url(img/cliente-logo-6-hover.png) left center no-repeat;
+}
+
+.clientes-7 {
+    background: url(img/cliente-logo-7.png) center center no-repeat;
+    width: 293px;
+    height: 395px;
+    position: relative;
+    top: -154px;
+    left: -3px;
+    float: left;
+}
+
+.clientes-7:hover {
+    background: url(img/cliente-logo-7-hover.png) left center no-repeat;
+}
+
 .confiable {
     width: 99%;
     background: #0094ca;
@@ -280,13 +398,57 @@ CLASSES
     display: none; /*Quitar para ver seccion de conoceme*/
 }
 
+.contacto {
+    padding-top: 195px;
+}
+
+.contacto-datos {
+    float: left;
+    width: 416px;
+    margin: 120px 0 86px 0 ;
+}
+
+.contacto-icono {
+    float: left;
+    position: relative;
+    margin: 0 12px 0 0;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;    
+}
+
+.contacto-icono2 {
+    margin: 119px 0 0 57px;
+    float: left;
+    position: relative;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.contacto-icono:hover,
+.contacto-icono2:hover {
+    top: -30px;
+}
+
+.contacto-texto {
+    color: #555559;
+    font-size: 27px;
+    letter-spacing: -0.025em;
+    line-height: 126px;
+    font-weight: 300;
+}
 
 .content-wrapper {
 	max-width: 1200px;
-    min-width: 1024px;
+    min-width: 1200px;
 	padding: 0 1em;
 	margin: 0 auto;
-    position: relative;
+    position: relative;   
 }
 
 .creativo {
@@ -439,6 +601,63 @@ CLASSES
 
 .evitar-conseguir {
     position: relative;
+}
+
+.gustos {
+    background: url(img/gustos-bg.png) center top no-repeat;
+    padding-bottom: 116px;
+}
+
+.gustos-featured {
+    width: 713px;
+    float: left;
+    margin-top: 16px;
+
+}
+
+.gustos-normal {
+    float: left;
+    width: 227px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.gustos-post {
+    width: 1200px;
+}
+
+.gustos-post div:nth-child(4){
+    margin-left: 0;
+}
+
+.gustos-post-content {
+    background: #fff;
+    position: relative;
+    padding: 72px 25px 25px;
+}
+
+.gustos-post-content-normal {
+    background: #fff;
+    position: relative;
+    max-height: 213px;
+    height: 213px;
+    min-height: 213px;    
+    padding: 69px 25px 10px;    
+}
+
+.gustos-post-content h3,
+.gustos-post-content-normal h3{
+    color: #0093c9;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    margin: 0 0 28px;
+    line-height: 25px;
+}
+
+.gustos-post-tag {
+    position: absolute;
+    left: 25px;
+    top: -50px;
 }
 
 .list-content {
@@ -868,6 +1087,14 @@ CLASSES
     background: #555559;
     clear: both;
     overflow: hidden;
+}
+
+.titulo-azul {
+    color: #0093c9;
+    font-size: 47px;
+    font-weight: 300;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;  
 }
 
 .triangle {

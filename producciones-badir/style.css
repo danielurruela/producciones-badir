@@ -605,7 +605,7 @@ CLASSES
 
 .gustos {
     background: url(img/gustos-bg.png) center top no-repeat;
-    padding-bottom: 116px;
+    padding: 200px 0 116px 0;
 }
 
 .gustos-featured {
@@ -624,6 +624,7 @@ CLASSES
 
 .gustos-post {
     width: 1200px;
+    margin-top: 114px;
 }
 
 .gustos-post div:nth-child(4){
@@ -1095,6 +1096,14 @@ CLASSES
     font-weight: 300;
     letter-spacing: 0.09em;
     text-transform: uppercase;  
+}
+
+.title-white {
+    color: #fff;
+    font-size: 47px;
+    font-weight: 300;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;     
 }
 
 .triangle {

@@ -1,3 +1,4 @@
+  
 /*----------------------
 GENERAL
  ---------------------*/
@@ -103,11 +104,6 @@ CLASSES
     border-radius: 20px;    
     -moz-animation: analitico 2s ease-out;
     -webkit-animation: analitico 2s ease-out;    
-}
-
-.arrow-down {
-    text-align: center;
-    display: block;
 }
 
 .asertivo {
@@ -381,7 +377,7 @@ CLASSES
 }
 
 .conoceme {
-    padding-top: 130px !important;
+    padding: 0 !important;
     display: none; /*Quitar para ver seccion de conoceme*/
 }
 
@@ -392,10 +388,11 @@ CLASSES
 .conoceme-pic {    
     height: 400px;
     position: relative;
-    margin: 0 auto;
+    margin: 50px auto 0;
     clear: both;
     max-width: 1402px;
-    display: none; /*Quitar para ver seccion de conoceme*/
+    left: 0;
+    display: none;
 }
 
 .contacto {
@@ -732,6 +729,10 @@ CLASSES
     display: none;
 }
 
+.hola-content {
+    height: 580px !important;
+}
+
 .hola-text {
     width: 584px;
     z-index: 9;
@@ -906,7 +907,6 @@ CLASSES
 
 .logo-2,
 .logo-3 {
-    display: none;
     position: absolute;
     left: 75px;
     top: 36px;
@@ -937,17 +937,16 @@ CLASSES
     display: block;
     text-transform: uppercase;
     color: #0093c9;
-    padding-right: 35px;
     margin-top: 135px;
-    background: url(img/right-arrow.png) right center no-repeat;
 }
+
 
 .nav-bar {
     background: #f6f8f9;
     padding-bottom: 30px;  
     position: fixed;  
     width: 100%;
-    z-index: 1000;
+    z-index: 2000;
 }
 
 .perfeccionista {
@@ -1000,15 +999,27 @@ CLASSES
     float: right;
 }
 
+.right-arrow {
+    background: url(img/right-arrow.png) right center no-repeat;
+    width: 50px;
+    height: 27px;
+    display: inline-block;
+}
+
 .servicios {
     position: relative;
     height: 704px;    
     background: #F6F8F9;
-    overflow: hidden;
 }
  
 .show {
     display: block;
+}
+
+.skills-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 65px;
 }
 
 .skills {
@@ -1017,6 +1028,7 @@ CLASSES
     list-style: none;    
     position: relative;
     padding: 0;
+    float: left;
 }
 
 .skills li {
@@ -1041,6 +1053,7 @@ CLASSES
 .skill-text {
     width: 570px;
     margin-top: 80px;
+    float: right;
 }
 
 .skill-text p {
@@ -1133,6 +1146,14 @@ CLASSES
 #analista-2 {
     margin: 36px 26px 0 61px;
     float: left;
+}
+
+#arrow-down {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
 }
 
 #arrow-1 {
@@ -1324,6 +1345,41 @@ CLASSES
     top: 122px;
     z-index: 40;
 }
+/*----------------------
+scroll styles
+ ---------------------*/
+nav ul li a.dark {
+    color: #f6f8f9;
+    font-size: 11px;
+    max-height:  54px;
+    padding-top: 41px;
+    margin-top: 2px;
+    border-top: 3px solid #56565B;    
+    display: inline-block;
+}
+
+nav ul li a.dark:hover {
+    border-top: 3px solid #f6f8f9;
+    max-height:  54px;
+    color: #f6f8f9;    
+
+}
+nav ul li a.blue {
+    color: #f6f8f9;
+    font-size: 11px;
+    max-height:  54px;
+    padding-top: 41px;
+    margin-top: 2px;
+    border-top: 3px solid #0093C9;    
+    display: inline-block;
+}
+
+nav ul li a.blue:hover {
+    border-top: 3px solid #f6f8f9;
+    max-height:  54px;
+    color: #f6f8f9;    
+
+}
 
 /*----------------------
 RESPONSIVE
@@ -1333,3 +1389,122 @@ RESPONSIVE
 
 
 }
+
+/*----------------------
+KEYFRAME
+ ---------------------*/
+@-webkit-keyframes perfeccionista {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 93%;
+    }
+}
+ @-webkit-keyframes creativo {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 94%;
+    }
+}
+@-webkit-keyframes exigente {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 98%;
+    }
+}
+@-webkit-keyframes asertivo {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 97%;
+    }
+}
+@-webkit-keyframes confiable {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 99%;
+    }
+}
+@-webkit-keyframes visual {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 99%;
+    }
+}
+@-webkit-keyframes analitico {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 98%;
+    }
+}
+
+
+
+ @-moz-keyframes perfeccionista {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 93%;
+    }
+}
+ @-moz-keyframes creativo {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 94%;
+    }
+}
+@-moz-keyframes exigente {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 98%;
+    }
+}
+@-moz-keyframes asertivo {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 97%;
+    }
+}
+@-moz-keyframes confiable {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 99%;
+    }
+}
+@-moz-keyframes visual {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 99%;
+    }
+}
+@-moz-keyframes analitico {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 98%;
+    }
+} 

@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Badir Nakid</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/bootstrap.css">	
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet"  type="text/css" href="css/normalize.css">
+	<link rel="stylesheet"  type="text/css" href="css/bootstrap.css">	
+	<link rel="stylesheet"  type="text/css" href="style.css">
 	<script src="js/modernizr.js"></script>	
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
 </head>
@@ -15,12 +15,10 @@
 		<!-- Header -->		
 		<header>
 			<div class="nav-bar clearfix">		
-				<div class="content-wrapper clearfix">
-
-					<!--Estos son los logos que aparecen y desaparecen dependiendo del area en donde se esta en el sitio -->					
+				<div class="content-wrapper clearfix">		
 					<a class="logo" href="#fakelink"><img src="img/logo.png" alt="Badir Nakid"></a>
 					<a class="logo-2" href="#fakelink"><img src="img/logo-2.png" alt="Badir Nakid"></a>	
-					<a class="logo-3" href="#fakelink"><img src="img/logo-3.png" alt="Badir Nakid"></a>									
+					<a class="logo-3" href="#fakelink" style="opacity: 0;"><img src="img/logo-3.png" alt="Badir Nakid"></a>									
 					<nav class="clearfix">
 						<ul>
 							<li id="nav-extras"><a href="#extras">EXTRAS</a></li>
@@ -37,13 +35,15 @@
 		<div class="scrollblock">
 			<div class="content-wrapper ">
 				<h1 class="main-statement">La <span class="main-big">oportunidad</span> está en el mínimo <span class="main-big">detalle</span></h1>
-				<a class="arrow-down" href="#hola"><img src="img/arrow-down.png" alt="Arrow Down"></a>
+				<a id="arrow-down" href="#hola"></a>
 			</div>
 		</div>
 	</div>
 	<!-- SCREEN 2 -->
-	<div id="hola" class="clearfix servicios">
-		<div class="clearfix content-wrapper scrollblock">
+	<div style="width:1251px;margin:0 auto;">
+	<div id="r-slide" class="clearfix" style="width:2420px;transition:all 1s;">
+	<div id="hola" class="clearfix servicios pull-left">
+		<div class="clearfix content-wrapper scrollblock hola-content">
 			<figure id="badir-pic" class="absolutepos">
 				<img src="img/badir-1.jpg" alt="Badir Nakid">
 			</figure>			
@@ -51,14 +51,40 @@
 				<h2>HOLA!</h2>
 				<h3>Soy <strong>Badir Nakid,</strong></h3>
 				<p>Consultor / Especialista en Business Intelligence con más de 7 años de experiencia, impactando grandes empresas a través del desarrollo de soluciones, análisis de datos y modelos para agilizar flujos de información. Líder, innovador, enfocado a la entrega de servicios de excelencia. Orientado a identificar y eliminar los riesgos y costos excesivos, así como incrementar ingresos para el éxito del negocio. Experto en mejoras de procesos e integración de tecnología, principalmente con <strong>Microsoft Excel<span class="small-text">®</span>, MicroStrategy<span class="small-text">®</span> y SAP BusinessObjects<span class="small-text">®</span>.</strong></p>
-
-				<!-- Este es el link que debe traer el contenido de "conoceme"-->
-				<a class="more-link" href="#conoceme"> Conóceme como persona</a>
-
+				<a class="more-link" onclick="display();" href="#conoceme"> <p class="pull-left">Conóceme como persona</p></a>
 			</div>
 		</div>
 	</div>
-	<div class="testimonials">
+	<div id="conoceme" class="conoceme clearfix content-wrapper pull-right">
+		<div class="skills-content clearfix">
+			<h2>ME GUSTA SER:</h2>			
+			<ul class="skills">
+		    	<li><span id="perfeccionista" class="expand"></span><em>PERFECCIONISTA</em></li>
+		    	<li><span id="exigente" class="expand"></span><em>EXIGENTE</em></li>
+		    	<li><span id="asertivo" class="expand"></span><em>ASERTIVO</em></li>
+		    	<li><span id="confiable" class="expand"></span><em>CONFIABLE</em></li>
+		    	<li><span id="creativo" class="expand"></span><em>CREATIVO</em></li>
+		    	<li><span id="visual" class="expand"></span><em>VISUAL</em></li>
+		    	<li><span id="analitico" class="expand"></span><em>ANALÍTICO</em></li>
+		    </ul>
+			<div class="skill-text">
+				<p>Empáticamente busco <span class="big">soluciones perfectas</span> para lograr que el cliente se sienta feliz y satisfecho. Me relaciono de manera eficiente, soy comprometido y doy mi <span class="big">máximo</span> esfuerzo.</p>
+				<p>Mi objetivo es ayudar al cliente a sobresalir, resolviendo situaciones del día a día con eficacia y atención en el detalle.</p>
+				<p>Soy <span class="big">adaptable, motivado y optimista</span>. Me anticipo a los requerimientos y disfruto cada desafío.</p>
+				<p>Pienso en grande, y convierto situaciones críticas en oportunidades.</p>
+				<p>Sinceramente</p>
+				<p><span class="big">Badir Nakid</span></p>
+			</div>
+		</div>
+		<div class="conoceme-pic scrollblock">
+				<img id="cubos" src="img/cubos.png" alt="Cubos">
+				<img id="badir-conoceme" src="img/conoceme-pic.jpg" alt="Conoceme">
+		</div>		
+	</div>
+</div>
+		
+	</div>
+<div class="testimonials">
 		<div id="testimonial-items" data-wrap="true" class="carousel slide ">
 
 
@@ -136,30 +162,6 @@
 	<!-- CONOCEME
 	Toda esa area es la que se desplaza desde la derecha al centro de la pagina cuando se da clic en el link de "conoceme mas" quitar el display: none de el CSS para ver la sección
 	 -->	
-	<div id="conoceme" class="conoceme clearfix content-wrapper">
-		<h2>ME GUSTA SER:</h2>
-			<ul class="skills left">
-		    	<li><span class="expand perfeccionista"></span><em>PERFECCIONISTA</em></li>
-		    	<li><span class="expand exigente"></span><em>EXIGENTE</em></li>
-		    	<li><span class="expand asertivo"></span><em>ASERTIVO</em></li>
-		    	<li><span class="expand confiable"></span><em>CONFIABLE</em></li>
-		    	<li><span class="expand creativo"></span><em>CREATIVO</em></li>
-		    	<li><span class="expand visual"></span><em>VISUAL</em></li>
-		    	<li><span class="expand analitico"></span><em>ANALÍTICO</em></li>
-		    </ul>
-		<div class="skill-text right">
-			<p>Empáticamente busco <span class="big">soluciones perfectas</span> para lograr que el cliente se sienta feliz y satisfecho. Me relaciono de manera eficiente, soy comprometido y doy mi <span class="big">máximo</span> esfuerzo.</p>
-			<p>Mi objetivo es ayudar al cliente a sobresalir, resolviendo situaciones del día a día con eficacia y atención en el detalle.</p>
-			<p>Soy <span class="big">adaptable, motivado y optimista</span>. Me anticipo a los requerimientos y disfruto cada desafío.</p>
-			<p>Pienso en grande, y convierto situaciones críticas en oportunidades.</p>
-			<p>Sinceramente</p>
-			<p><span class="big">Badir Nakid</span></p>
-		</div>
-	</div>
-	<div class="conoceme-pic scrollblock">
-			<img id="cubos" src="img/cubos.png" alt="Cubos">
-			<img id="badir-conoceme" src="img/conoceme-pic.jpg" alt="Conoceme">
-	</div>
 	<!-- Termina la seccion de CONOCEME -->	
 
 
@@ -581,7 +583,7 @@
 			<figure class="contacto-icono2"><img src="img/face-icon.png" alt="Telefono"></figure>
 			</a>			
 		</div> 
-		<figure class="contacto-pic"><img src="img/contacto-pic.jpg" alt="Contacto"></figure>
+		<figure class="contacto-pic" align="center"><img src="img/contacto-pic.jpg" alt="Contacto"></figure>
 	</div>
 
 	<!-- SCREEN 10 -->	
